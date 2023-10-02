@@ -1,90 +1,40 @@
 ---
-title: EleventyOne
-subtitle: A project scaffold for getting building with Eleventy quickly.<br /> Made by <a href="https://twitter.com/philhawksworth">Phil</a> for <a href="https://twitter.com/philhawksworth">Phil</a>, but perhaps you might also find it useful.
+title: Bryce Educational Therapy
 layout: layouts/base.njk
 ---
 
+## What is educational therapy?
 
-## This site is a starting point
+Learning challenges can profoundly impact students’ ability to prosper — in school and beyond. Educational Therapists (ETs) have graduate-level training in highly-individualized, evidence-based learning tools. ETs use these advanced tools, in one-to-one settings, to help children and adults identify and overcome learning challenges.
 
-From this point we should already have:
+Educational Therapists may also lead teams of professionals, including teachers, other therapists, physicians and counselors. These teams work in concert to help students succeed and prosper.
 
-- [Eleventy](https://11ty.io) with a skeleton site
-- A date format filter for Nunjucks based on [Luxon](https://moment.github.io/luxon)
-- A tiny CSS pipeline with PostCSS
-- A tiny inline JS pipeline. (<a href="#" class="btn-log">Test a console.log message</a>)
-- JS [search index](/search.json) generator
-- [Netlify Dev](https://www.netlify.com/products/dev) for testing [Netlify redirects](https://netlify.com/docs/redirects/)
-- Serverless (FaaS) development pipeline with [Netlify Dev](https://www.netlify.com/products/dev) and [Netlify Functions](https://www.netlify.com/products/functions)
+Educational therapy works in two related ways: demystifying learning problems and developing learning strengths. The results can dramatically impact the student and often improve their relationships with family and peers.
 
+## Who needs educational therapy?
 
+Whether you are considering ET for yourself or someone else, ET benefits those who need reading, writing, math or homework help. ET addresses issues with:
 
-## Post pages
+- Memory training
+- Attention awareness
+- Executive functioning
+- Phonemic awareness
+- Auditory processing
+- Verbal processing
+- Visual-motor perception and skills
+- Sequential and spatial ordering
+- Higher order cognition
+- Social cognition
+- Traumatic brain injury
 
-The pages found in in the posts
+## How does educational therapy work?
 
-<ul class="listing">
-{%- for page in collections.post -%}
-  <li>
-    <a href="{{ page.url }}">{{ page.data.title }}</a> -
-    <time datetime="{{ page.date }}">{{ page.date | dateDisplay("LLLL d, y") }}</time>
-  </li>
-{%- endfor -%}
-</ul>
+Educational Therapists work with clients, one-to-one, in homes, offices and schools. ETs help clients develop individualized skills to overcome their specific developmental, neurological, and learning challenges.
 
-## Links from an external data source
+An ET will often start with non-threatening activities, such as games, to create a positive relationship (a therapeutic alliance).
 
-These links were sourced from [hawksworx.com](https://www.hawksworx.com/feed.json) at build time.
+The ET carefully analyzes the client’s school work and reviews assessments, if available, to customize an educational treatment plan and identify educational therapy goals. These goals are based on the client’s academic needs, in addition to their social-emotional, psychoeducational and neuropsychological needs.
 
-<ul class="listing">
-{%- for item in hawksworx.entries.slice(0,5) -%}
-  <li>
-    <a href="{{ item.link }}">{{ item.title }}</a>
-  </li>
-{%- endfor -%}
-</ul>
+The ET and the client, working together, make progress toward the identified therapy goals, using evidence-based tools and techniques that are engaging, fun, and rewarding.
 
-
-## Prerequisite
-
-- [Node and NPM](https://nodejs.org/)
-
-## Running locally
-
-```bash
-# install the dependencies
-npm install
-
-# External data sources can be stashed locally
-npm run seed
-
-# It will then be available locally for building with
-npm run start
-```
-
-## Add some Netlify helpers
-Netlify Dev adds the ability to use Netlify redirects, proxies, and serverless functions.
-
-```bash
-# install the Netlify CLI in order to get Netlify Dev
-npm install -g netlify-cli
-
-# run a local server with some added Netlify sugar in front of Eleventy
-netlify dev
-```
-
-A serverless functions pipeline is included via Netlify Dev. By running `netlify dev` you'll be able to execute any of your serverless functions directly like this:
-
-- [/.netlify/functions/hello](/.netlify/functions/hello)
-- [/.netlify/functions/fetch-joke](/.netlify/functions/fetch-joke)
-
-### Redirects and proxies
-
-Netlify's Redirects API can provide friendlier URLs as proxies to these URLs.
-
-- [/api/hello](/api/hello)
-- [/api/fetch-joke](/api/fetch-joke)
-
-
-
-
+The ET provides periodic, detailed progress reports, and works hand-in-hand with parents to achieve amazing results.

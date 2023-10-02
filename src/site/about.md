@@ -1,33 +1,18 @@
 ---
-title: Get Yours
+title: About Ann
 layout: layouts/base.njk
-subtitle: Clone and deploy your own EleventyOne starter template.
 ---
 
-## Hosting
+After my own two special needs children were grown, I trained as an Educational Therapist. Each of my children is amazing, and each has daunting challenges.
 
-This site is deployed by, and hosted by [Netlify](https://www.netlify.com).
+Before I started my graduate training in ET, I already had more than a dozen years of education experience, both as a credentialed classroom teacher, resource teacher, and one-on-one instructor for Lindamood-Bell and Sylvan.
+Before my teaching career, I worked as a corporate trainer, after getting a Master’s Degree in Organizational Psychology at Claremont Graduate University. I live in West Los Angeles and serve the surrounding community.
 
-<div class="nakedLink">
+My philosophy: Mistakes should be embraced and celebrated — mistakes are powerful educators. I facilitate learning by encouraging students to “own” their own successes. I believe students prosper in a safe, warm, rewarding environment, where they learn to “fish” for themselves, and become better able to face future challenges.
 
-Latest deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/056b4a67-70e6-4af4-9be5-dee151b8e906/deploy-status)](https://app.netlify.com/sites/eleventyone/deploys)
-
-</div>
-
-## One-click deploy
-
-To get your own instance of this [Eleventy](https://11ty.io) starter project cloned and deploying to [Netlify](https://www.netlify.com) very quickly, just click the button below and follow the instructions.
-
-<div class="nakedLink">
+<!--
+<div>
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventyone)
 
-</div>
-
-## 👆 Wait, what happens when I click that button?
-
-Good question. Here's what it will do...
-
-1. Netlify will clone the [git repository]({{pkg.repository.url}}) of this project into your GitHub account. You will be asked for the required permissions to add the repo for you.
-2. They'll create a new site for you in Netlify, and configure it to use your shiny new repo. Right away you'll be able to deploy changes simply by pushing changes to your repo.
-3. That's it really.
+</div> -->
